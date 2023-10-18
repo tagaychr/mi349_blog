@@ -1,8 +1,8 @@
 .content {
     display: flex;
     align-items: center; /* Align items vertically in the center */
-    height: 50vh;
-    width:50vw;
+    height: 80%;
+    width:80%;
 }
 
 .content img {
