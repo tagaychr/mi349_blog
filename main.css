@@ -15,3 +15,13 @@
 .content p {
     margin-left: 10px; /* Add space between the image and the text (adjust as needed) */
 }
+
+.Title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-column {
+    text-align: right;
+}
