@@ -21,5 +21,30 @@
 
     <main>
         <h1>Contact</h1>
+        <form>
+            <div class="form">
+                <label form="name">Name: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form">
+                <label form="email">Email: </label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form">
+                <label for="reason">Reason for contact:</label>
+                <select name="reason" id="reason">
+                    <option value="saying_hi">Saying Hi</option>
+                    <option value="looking_for_contractor">Looking for a Contractor</option>
+                    <option value="interested_in_interview">Interested in an Interview</option>
+                </select>
+            </div>
+            <div class="form">
+                <label form="comment">Comment: </label>
+                <input type="text" name="comment" id="comment" required>
+            </div>
+            <div class="form">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
     </main>
 </html>
