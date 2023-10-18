@@ -1,4 +1,4 @@
-.content {
+.content , .blog_post {
     display: flex;
     align-items: center; /* Align items vertically in the center */
     height: 80%;
