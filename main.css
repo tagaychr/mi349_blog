@@ -1,8 +1,8 @@
 .content , .blog_post {
     display: flex;
     align-items: center; /* Align items vertically in the center */
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     margin: auto;
 }
 
