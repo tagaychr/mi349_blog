@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-.content img {
+img {
     object-fit: cover;
     width: 50%;
     height: 50%;
