@@ -7,7 +7,7 @@ nav{
 
 }
 
-a {
+a, a:visited {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -19,6 +19,8 @@ a {
 a:hover {
   background-color: #111;
 }
+
+
 
 
 
