@@ -1,15 +1,17 @@
 /*Navigation bar*/
 nav{
-  width:100vw;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  position: sticky;
+
 }
 
 a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #333;
   float: left;
 }
 
@@ -17,6 +19,9 @@ a {
 a:hover {
   background-color: #111;
 }
+
+
+
 /*A left or right floated image with a caption*/
 
 /*A multi-column form layout using Flexbox*/
