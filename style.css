@@ -1,8 +1,7 @@
 /*Navigation bar*/
 nav{
   overflow: hidden;
-  background-color: #333;
-  color: white;
+  
   position: sticky;
 
 }
@@ -13,6 +12,8 @@ a, a:visited {
   padding: 14px 16px;
   text-decoration: none;
   float: left;
+  background-color: #333;
+  color: white;
 }
 
 /* Change the link color to #111 (black) on hover */
