@@ -8,8 +8,8 @@
 
 img {
     object-fit: cover;
-    width: 50%;
-    height: 50%;
+    /*width: 50%;
+    height: 50%;*/
 }
 
 .content p {
@@ -32,7 +32,7 @@ img {
 }
 
 .article-image img {
-    display: block;
+    /*display: block;*/
     max-width: 100%;
 }
 
