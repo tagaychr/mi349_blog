@@ -1,7 +1,7 @@
 /*Navigation bar*/
 nav{
   overflow: hidden;
-  
+  background-color: #333;
   position: sticky;
 
 }
