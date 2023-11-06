@@ -16,7 +16,6 @@ a, a:visited {
   color: white;
 }
 
-/* Change the link color to #111 (black) on hover */
 a:hover {
   background-color: #111;
 }
@@ -27,4 +26,86 @@ a:hover {
 
 /*A left or right floated image with a caption*/
 
+img {
+  object-fit: cover;
+  /*width: 50%;
+  height: 50%;*/
+}
+
+.content p {
+  margin-left: 10px; /* Add space between the image and the text (adjust as needed) */
+}
+
+.Title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-column {
+  text-align: right;
+}
+
+.article-image {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.article-image img {
+  /*display: block;*/
+  max-width: 100%;
+}
+
+.caption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+  float: right;
+  margin-left: 20px;
+}
+
 /*A multi-column form layout using Flexbox*/
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  flex: 1;
+  padding: 10px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form select, .form input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.form:last-child {
+  flex-basis: 100%;
+}
+
+
+#form_style{
+  background-color: #222;
+  color:#fff;
+}
+
+
+.Title1, .Title2{
+  background: #aaa;
+
+}
+
+a[href] {
+  text-decoration: none;
+  color: #444444;
+}
+
+
