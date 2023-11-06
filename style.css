@@ -116,3 +116,7 @@ header{
 h1{
   text-align: center;
 }
+
+.my_image{
+  height:500px;
+}
